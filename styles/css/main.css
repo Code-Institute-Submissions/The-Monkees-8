@@ -1,29 +1,91 @@
-.page {
-    height:100vh;
-    
-    /*cant be 100vh bc when the page is longer than a viewport screen -as it 
-    is for the gallery, and will be for all the pages for mobile, it wont work. hmmmm.
-    
-    maybe instead label each section as a div and that div contains the page, and then
-    that div gets the background colours. */
-}
-
+/*----------------------Background Colors-------------------------------*/
 .homepage {
-    background-color:#011242;
+    background-color:#010D31;
 }
 
 
 .music {
-    background-color:#002409;
+    background-color:#011706;
 }
 
 
 .gallery {
-    background-color:#41072A;
+    background-color:#210315;
 }
 
 .events {
-    background-color:#240344;
+    background-color:#120221;
+}
+
+
+/*--------------------------------Homepage Styling-------------------------------------------------*/
+
+
+/*-------------------------------Styling for multiple pages eg fonts----------------------------------*/
+
+h1,h2 {
+    margin-left:40px;
+    margin-top: 0px;
+    font-family:"abril fatface", cursive;
+}
+
+.gallery, .homepage, .music, .events {
+    padding-bottom: 0px;
+    margin-bottom:0px;
+}
+
+/*need to add styling that each part of the webpage takes up whole screen, in desktop, even if content
+doesnt mean it automatically would.*/
+
+/*heading styling*/
+
+.heading {
+    padding-top:20px;
+    text-align:left;
+    font-size:70px;
+}
+
+.subheading {
+    padding-top:10px;
+    text-align:left;
+    font-size:45px;
+    padding-bottom:10px;
+}
+
+
+/*--------------------------------Music Page Styling-------------------------------------------------*/
+
+.music img {
+    width:300px;
+    margin:10px;
+}
+
+.music h2 {
+    color:#FF97B0; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+}
+
+
+
+/*--------------------------------Gallery Page Styling-------------------------------------------------*/
+
+.gallery img {
+    width:300px;
+    margin:10px;
+}
+
+.gallery h2 {
+    padding-top:20px;
+    text-align:left;
+    color:#97E7FF; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+    font-size:70px;
+}
+/*-----------------------Events Page Form Styling----------------------------------------------*/
+
+.events h2 {
+    color:#FFF397; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+}
+.events p {
+    color:#FFF397; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
 }
 
 input {
@@ -38,11 +100,3 @@ input {
     width:100px;
 }
 
-h1,h2 {
-    margin-left:40px;
-    font-family:"abril fatface", cursive;
-}
-
-.gallery-page > img {
-    width:50px;
-}
