@@ -1,0 +1,48 @@
+.page {
+    height:100vh;
+    
+    /*cant be 100vh bc when the page is longer than a viewport screen -as it 
+    is for the gallery, and will be for all the pages for mobile, it wont work. hmmmm.
+    
+    maybe instead label each section as a div and that div contains the page, and then
+    that div gets the background colours. */
+}
+
+.homepage {
+    background-color:#011242;
+}
+
+
+.music {
+    background-color:#002409;
+}
+
+
+.gallery {
+    background-color:#41072A;
+}
+
+.events {
+    background-color:#240344;
+}
+
+input {
+    margin-bottom:10px;
+}
+
+.formitem {
+    margin-left:25px;
+}
+
+.text-enter {
+    width:100px;
+}
+
+h1,h2 {
+    margin-left:40px;
+    font-family:"abril fatface", cursive;
+}
+
+.gallery-page > img {
+    width:50px;
+}

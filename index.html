@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
-
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
-
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet">
+	<link rel="stylesheet" href="styles/css/main.css" type="text/css" />
+	<title>The Monkees Site</title>
 </head>
-
 <body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
+	<header>
+	<!--Logo, title, and nav bar -->
+	<div>
+		<div>
+			<img src=assets/multimedia/images/monkees.jpg alt="band photo"/>
+		</div>
+		<div>
+			<p>The Monkees</p>
+		</div>
+		<div> <!--nav section -->
+		</div>
+	</div>
+	</header> 
+	
+	<!-- header fixed at top of page? except for title section? hmm. -->
+	<section>
+	<!-- Homepage-->
+	<div class="homepage page">
+		<h1 class="homepage-content">The Monkees</h1>
+	
+	<!--the kind of nav on the home page - the titles, media, music, events - 
+	How do I put the links here but also as the nav at the top? could it be both?
+	hmmm. maybe on homepage, hide the nav-->
+	</div>
+	<!-- Music -->
+	<div class="music page">
+		<h2>Music</h2>
+		<!--insert the songs -->
 
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
-
+		<h2>Albums</h2>
+		<!--insert the albums. maybe each album in its own div, image and title of album written below.-->
+		<img src="assets/multimedia/images/cover.jpg" alt="The Monkees Greatest Hits Album">
+		<img src="assets/multimedia/images/album.jpg" alt="The Greatest Hits of the Monkees Album">
+		<img src="assets/multimedia/images/album2.jpg" alt="The Very Best of the Monkees album">
+	</div>
+	<!--Gallery -->
+	<div class="gallery page">
+		<h2>Gallery</h2>
+	<!--insert images and vedio.-->
+		<img src="assets/multimedia/images/album.jpg" alt="">
+		<img src="assets/multimedia/images/album2.jpg" alt="">
+		<img src="assets/multimedia/images/band.jpg" alt="">
+		<img src="assets/multimedia/images/cover.jpg" alt="">
+		<img src="assets/multimedia/images/cover1.jpg" alt="">
+		<img src="assets/multimedia/images/cover2.jpg" alt="">
+		<img src="assets/multimedia/images/cover3.jpg" alt="">
+		<img src="assets/multimedia/images/dj.jpg" alt="">
+		<img src="assets/multimedia/images/md.jpg" alt="">
+		<img src="assets/multimedia/images/mn.jpg" alt="">
+		<img src="assets/multimedia/images/pt.jpg" alt="">
+		<img src="assets/multimedia/images/monkees.jpg" alt="">
+	</div>
+	<!-- Events -->
+	<div class="events page">
+			<h2>Events</h2>
+		<p>The Monkees perform at events such as weddings and Christmas parties.If you would like The Monkees
+		to perform at your event, please use the form below to be in contact.</p>
+		<h2>Contact</h2>
+		<form>
+			<!--form with sections for, name, email address, and message space -->
+			<input type="text" name="name" placeholder="Name" class="formitem" size="35"/>
+			<br>
+			<input type="email" name="email" placeholder="Email Address" class="formitem" size="35"/>
+			<br>
+			<textarea rows="15" cols="50" class="formitem" ></textarea>
+			<br>
+			<input type="submit" name="submit" class="formitem">
+			
+		</form>
+	</div>
+	
+	</section>
+<footer>
+	<!--Social media links, logo again, etc -->
+	
+</footer> <!-- footer fixed at bottom of page -->
 </body>
 </html>
