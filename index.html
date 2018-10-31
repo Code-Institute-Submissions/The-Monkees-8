@@ -4,52 +4,85 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles/css/main.css" type="text/css" />
 	<title>The Monkees Site</title>
 </head>
 <body>
 	<header>
 	<!--Logo, title, and nav bar -->
-	<div>
-		<div>
-			<p>The Monkees</p>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="nav"> <!--nav section -->
+				
+					<ul class="navbar list-inline">
+					<li><a href="#">The Monkees</a></li>
+					<li><a href="#music">Music</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#events">Events</a></li>
+					<li><a href="#">Social</a></li>
+					<li><a><!--Facebook Logo, Twitter Logo, Instagram Logo --> </a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div> <!--nav section -->
-			<a href="#music">Music</a>
-			<a href="#gallery">Gallery</a>
-			<a href="#events">Events</a>
-			<a href="#">Social</a>
-			<a><!--Facebook Logo, Twitter Logo, Instagram Logo --> </a>
-		</div>
-	</div>
 	</header> 
 	
 	<!-- header fixed at top of page? except for title section? hmm. -->
 	<section>
 	<!-- Homepage-->
-	<div class="homepage page">
-		<h1 class="homepage-content">The Monkees</h1>
-		<img class="logo" src="">
-	
-	<!-- the kind of nav on the home page - the titles, media, music, events - 
-	How do I put the links here but also as the nav at the top? could it be both?
-	hmmm. maybe on homepage, hide the nav -->
-	
+	<div class="homepage"></div>
+		<div class="container-fluid">
+			<h1 class="homepage-content homepage-heading">The Monkees</h1>
+		</div>
+		<div class="container homepage-navigation">
+			<a href="#music">Music</a>
+			<a href="#gallery">Gallery</a>
+			<a href="#events">Events</a>
+		</div>
+
 	</div>
+
 	<!-- Music -->
 	<div id="music" class="music page">
 		<h2 class="heading">Music.</h2>
-		<!--insert the songs -->
-
+		
+		<h2 class="subheading">Songs</h2>
+		<div class="song">
+			<p>Clarksville</p>
+				<audio controls>
+					<source src="assets/multimedia/music-videos/Clarksville.mp3" type="audio/mpeg">
+					Clarksville Song Not Working
+				</audio>
+		</div>
+		<div class="song"></div>
+			<p>Daydream Believer</p>
+				<audio controls>
+					<source src="assets/multimedia/music-videos/DaydreamBeliever.mp3" type="audio/mpeg">
+					Daydream Believer Song Not Working
+				</audio>
+		</div>	
+		
+		<div class="song"></div>
+			<p>I'm A Believer</p>
+				<audio controls>
+					<source src="assets/multimedia/music-videos/ImABeliever.mp3" type="audio/mpeg">
+					Im A Believer Song Not Working
+				</audio>
+		</div>	
+		
+		<div class="song"></div>
+			<p>Stepping Stone</p>
+				<audio controls>
+					<source src="assets/multimedia/music-videos/SteppingStone.mp3" type="audio/mpeg">
+					Stepping Stone Song Not Working
+				</audio>
+		</div>
+		
 		<h2 class="subheading">Albums.</h2>
-		<!--insert the albums. maybe each album in its own div, image and title of album written below.--
-		mobile - each album below each other, desktop - next to each other - one row, vertically centered pn screen.-->
-		<img src="assets/multimedia/images/cover.jpg" alt="The Monkees Greatest Hits Album">
-		<img src="assets/multimedia/images/album.jpg" alt="The Greatest Hits of the Monkees Album">
-		<img src="assets/multimedia/images/album2.jpg" alt="The Very Best of the Monkees album">
-	<h2 class="subheading">Songs</h2>
+			<img src="assets/multimedia/images/cover.jpg" alt="The Monkees Greatest Hits Album">
+			<img src="assets/multimedia/images/album.jpg" alt="The Greatest Hits of the Monkees Album">
+			<img src="assets/multimedia/images/album2.jpg" alt="The Very Best of the Monkees album">
 	</div>
 	<!--Gallery -->
 	<div id="gallery" class="gallery page">
@@ -78,18 +111,15 @@
 	<!-- Events -->
 	<div id="events" class="events page">
 			<h2 class="heading">Events.</h2>
-		<p>The Monkees perform at events such as weddings and Christmas parties.If you would like The Monkees
+		<p>The Monkees perform at events such as weddings and Christmas parties. If you would like The Monkees
 		to perform at your event, please use the form below to be in contact.</p>
 		<h2 class="subheading">Contact.</h2>
 		<form>
 			<!--form with sections for, name, email address, and message space -->
 			<input type="text" name="name" placeholder="Name" class="formitem" size="35"/>
-			<br>
 			<input type="email" name="email" placeholder="Email Address" class="formitem" size="35"/>
-			<br>
 			<textarea rows="15" cols="50" class="formitem" ></textarea>
-			<br>
-			<input type="submit" name="submit" class="formitem">
+			<input type="submit" name="submit" class="formitem submit">
 			
 		</form>
 	</div>

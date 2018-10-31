@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
+
 /*----------------------Background Colors-------------------------------*/
 .homepage {
     background-color:#010D31;
@@ -20,7 +22,20 @@
 
 /*--------------------------------Homepage Styling-------------------------------------------------*/
 
+.homepage-heading {
+    text-align: center;
+    font-size:100px;
+}
 
+.homepage-navigation a {
+    margin:0px 20px;
+    font-size:40px;
+    border:black solid 1px;
+}
+
+div .homepage {
+    height:300px;
+}
 /*-------------------------------Styling for multiple pages eg fonts----------------------------------*/
 
 h1,h2 {
@@ -36,6 +51,27 @@ h1,h2 {
 
 /*need to add styling that each part of the webpage takes up whole screen, in desktop, even if content
 doesnt mean it automatically would.*/
+
+/*header styling */
+
+header .nav ul{
+    list-style-type:none;
+    }
+
+header .nav ul li{
+    margin-left:10px;
+    margin-right:10px;    
+}
+
+.nav {
+    font-family:"Lato", sans-serif;
+    font-size:20px;
+    text-align:center;
+    padding-left:20px;
+    padding-top:20px;
+    background-color:#F6950F; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+    height:50px;
+}
 
 /*heading styling*/
 
@@ -90,13 +126,18 @@ doesnt mean it automatically would.*/
 
 input {
     margin-bottom:10px;
+    margin-top:10px;
 }
 
 .formitem {
     margin-left:25px;
+    display: block;
 }
 
 .text-enter {
     width:100px;
 }
 
+textarea {
+    resize:none;
+}
