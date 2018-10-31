@@ -73,6 +73,9 @@ header .nav ul li{
     height:50px;
 }
 
+.navbar {
+    width:100%;
+}
 /*heading styling*/
 
 .heading {
