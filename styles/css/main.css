@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
 
+body, html {
+    height:100%;
+}
+
 /*----------------------Background Colors-------------------------------*/
 .homepage {
     background-color:#010D31;
@@ -25,17 +29,41 @@
 .homepage-heading {
     text-align: center;
     font-size:100px;
+    color:#AAFECF;
 }
 
 .homepage-navigation a {
-    margin:0px 20px;
+    margin-left:80px;
+    margin-right:80px;
+    margin-bottom:20px;
     font-size:40px;
-    border:black solid 1px;
+    border:#AAFECF solid 3px;
+    color:#AAFECF;
+    font-family:"abril fatface", cursive;
+    
+    }
+
+.background{
+    height:100vh;
+    background-image: url("assets/multimedia/images/monkees.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+
+/*.bg {
+    background-image: url("assets/multimedia/images/monkees.jpg");
+    height:100%;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+*/
+
+.mainimage {
+    height:200px;
 }
 
-div .homepage {
-    height:300px;
-}
 /*-------------------------------Styling for multiple pages eg fonts----------------------------------*/
 
 h1,h2 {
@@ -60,7 +88,8 @@ header .nav ul{
 
 header .nav ul li{
     margin-left:10px;
-    margin-right:10px;    
+    margin-right:10px; 
+
 }
 
 .nav {
@@ -69,8 +98,13 @@ header .nav ul li{
     text-align:center;
     padding-left:20px;
     padding-top:20px;
-    background-color:#F6950F; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+    background-color:#FFCCA3; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
     height:50px;
+
+}
+
+.nav a{
+        color: #0F4242;
 }
 
 .navbar {
@@ -80,8 +114,9 @@ header .nav ul li{
 
 .heading {
     padding-top:20px;
-    text-align:left;
-    font-size:70px;
+    text-align:center;
+    font-size:90px;
+    
 }
 
 .subheading {
@@ -124,11 +159,13 @@ header .nav ul li{
     color:#FFF397; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
 }
 .events p {
-    color:#FFF397; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+    color:#FFF397;
+    /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+    
 }
 
 input {
-    margin-bottom:10px;
+    /*margin-bottom:10px;*/
     margin-top:10px;
 }
 
@@ -143,4 +180,13 @@ input {
 
 textarea {
     resize:none;
+}
+.marginb {
+    margin-bottom:10px;
+}
+
+/*--------------------------Footer---------------------*/
+
+footer {
+    background-color:#A3FFD2;
 }

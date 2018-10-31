@@ -16,11 +16,11 @@
 			<div class="row">
 				<div class="nav"> <!--nav section -->
 					<ul class="navbar list-inline">
-						<li><a href="#">The Monkees</a></li>
-						<li><a href="#music">Music</a></li>
-						<li><a href="#gallery">Gallery</a></li>
-						<li><a href="#events">Events</a></li>
-						<li><a href="#">Social</a></li>
+						<li class="navitem"><a href="#homepage">The Monkees</a></li>
+						<li class="navitem"><a href="#music">Music</a></li>
+						<li class="navitem"><a href="#gallery">Gallery</a></li>
+						<li class="navitem"><a href="#events">Events</a></li>
+						<li class="navitem"><a href="#social">Social</a></li>
 					</ul>
 				</div>
 			</div>
@@ -30,14 +30,15 @@
 	<!-- header fixed at top of page? except for title section? hmm. -->
 	<section>
 	<!-- Homepage-->
-	<div class="homepage"></div>
-		<div class="container-fluid">
-			<h1 class="homepage-content homepage-heading">The Monkees</h1>
-		</div>
-		<div class="container homepage-navigation">
-			<a href="#music">Music</a>
-			<a href="#gallery">Gallery</a>
-			<a href="#events">Events</a>
+	<div id="homepage" class="homepage bg">
+		<div class="container-fluid background">
+				<h1 class="homepage-content homepage-heading">The Monkees</h1>
+			<img class="mainimage" src="assets/multimedia/images/monkees.jpg">
+			<div class="container homepage-navigation">
+				<a href="#music" class="linktext">Music</a>
+				<a href="#gallery" class="linktext">Gallery</a>
+				<a href="#events" class="linktext">Events</a>
+			</div>
 		</div>
 
 	</div>
@@ -117,19 +118,24 @@
 			<!--form with sections for, name, email address, and message space -->
 			<input type="text" name="name" placeholder="Name" class="formitem" size="35"/>
 			<input type="email" name="email" placeholder="Email Address" class="formitem" size="35"/>
-			<textarea rows="15" cols="50" class="formitem" ></textarea>
+			<textarea rows="15" cols="50" class="formitem"></textarea>
 			<input type="submit" name="submit" class="formitem submit">
 			
 		</form>
 	</div>
 	
+	</section>
+<footer>
+	<!--Social media links, logo again, etc -->
+	<h3>
+		The Monkees
+	</h3>
+	
 	<div id="social" class="social">
 		<a href="https://en-gb.facebook.com/TheMonkees/" class="sociallink"><i class="fab fa-facebook-square"></i></a>
 		<a href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="sociallink"><i class="fab fa-twitter-square"></i></a>
 	</div>
-	</section>
-<footer>
-	<!--Social media links, logo again, etc -->
+	
 	
 </footer> <!-- footer fixed at bottom of page -->
 </body>
