@@ -13,17 +13,15 @@
 	<header>
 	<!--Logo, title, and nav bar -->
 		<div class="container-fluid">
-			<div class="row">
-				<div class="nav"> <!--nav section -->
-					<ul class="navbar list-inline">
-						<li class="navitem"><a href="#homepage">The Monkees</a></li>
-						<li class="navitem"><a href="#music">Music</a></li>
-						<li class="navitem"><a href="#gallery">Gallery</a></li>
-						<li class="navitem"><a href="#events">Events</a></li>
-						<li class="navitem"><a href="#social">Social</a></li>
-					</ul>
-				</div>
-			</div>
+			<nav> <!--nav section -->
+				<ul class="navbar list-inline">
+					<li class="navitem nav-a"><a href="#homepage">The Monkees</a></li>
+					<li class="navitem nav-a"><a href="#music">Music</a></li>
+					<li class="navitem nav-a"><a href="#gallery">Gallery</a></li>
+					<li class="navitem nav-a"><a href="#events">Events</a></li>
+					<li class="navitem nav-a"><a href="#social">Social</a></li>
+				</ul>
+			</nav>
 		</div>
 	</header> 
 	
@@ -45,39 +43,64 @@
 
 	<!-- Music -->
 	<div id="music" class="music page">
-		<h2 class="heading">Music.</h2>
-		
-		<h2 class="subheading">Songs</h2>
-		<div class="song">
-			<p>Clarksville</p>
-			<audio controls>
-				<source src="assets/music-videos/Clarksville.mp3" type="audio/mpeg">
-				Clarksville Song Not Working
-			</audio>
-		</div>
-		<div class="song">
-			<p>Daydream Believer</p>
-				<audio controls>
-					<source src="assets/music-videos/DaydreamBeliever.mp3" type="audio/mpeg">
-					Daydream Believer Song Not Working
-				</audio>
-		</div>
-		<div class="song">
-			<p>I'm A Believer</p>
-				<audio controls>
-					<source src="assets/music-videos/ImABeliever.mp3" type="audio/mpeg">
-					Im A Believer Song Not Working
-				</audio>
-		</div>	
-		
-		<div class="song">
-			<p>Stepping Stone</p>
-				<audio controls>
-					<source src="assets/music-videos/SteppingStone.mp3" type="audio/mpeg">
-					Stepping Stone Song Not Working
-				</audio>
+		<div class="container">>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-6">
+					<h2 class="heading">Music.</h2>
+				</div>
+			</div>
 		</div>
 		
+	<div class="container-fluid">
+		<div class="row">
+			<!--same as for music, once music one is functional -->
+			<h2 class="subheading">Songs</h2>
+		</div>
+	</div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-8 col-md-5">
+				<div class="song">
+					<p>Clarksville</p>
+					<audio controls>
+						<source src="assets/music-videos/Clarksville.mp3" type="audio/mpeg">
+						Clarksville Song Not Working
+					</audio>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 col-sm-8 col-md-5">
+				<div class="song">
+					<p>Daydream Believer</p>
+						<audio controls>
+							<source src="assets/music-videos/DaydreamBeliever.mp3" type="audio/mpeg">
+							Daydream Believer Song Not Working
+						</audio>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 col-sm-8 col-md-5">
+				<div class="song">
+					<p>I'm A Believer</p>
+						<audio controls>
+							<source src="assets/music-videos/ImABeliever.mp3" type="audio/mpeg">
+							Im A Believer Song Not Working
+						</audio>
+				</div>	
+			</div>
+			
+			<div class="col-xs-12 col-sm-8 col-md-5">
+				<div class="song">
+					<p>Stepping Stone</p>
+						<audio controls>
+							<source src="assets/music-videos/SteppingStone.mp3" type="audio/mpeg">
+							Stepping Stone Song Not Working
+						</audio>
+				</div>
+			</div>
+		</div>
+	</div>	
 	
 		<h2 class="subheading">Albums.</h2>
 			<img src="assets/multimedia/images/cover.jpg" alt="The Monkees Greatest Hits Album">
