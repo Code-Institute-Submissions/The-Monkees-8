@@ -9,43 +9,45 @@
 	<link rel="stylesheet" href="styles/css/main.css" type="text/css" />
 	<title>The Monkees Site</title>
 </head>
+
 <body>
 	<header>
 	<!--Logo, title, and nav bar -->
 		<div class="container-fluid">
 			<nav> <!--nav section -->
 				<ul class="navbar list-inline">
-					<li class="navitem nav-a"><a href="#homepage">The Monkees</a></li>
-					<li class="navitem nav-a"><a href="#music">Music</a></li>
-					<li class="navitem nav-a"><a href="#gallery">Gallery</a></li>
-					<li class="navitem nav-a"><a href="#events">Events</a></li>
-					<li class="navitem nav-a"><a href="#social">Social</a></li>
+					<li class="navitem"><a href="#homepage">The Monkees</a></li>
+					<li class="navitem"><a href="#music">Music</a></li>
+					<li class="navitem"><a href="#gallery">Gallery</a></li>
+					<li class="navitem"><a href="#events">Events</a></li>
+					<li class="navitem"><a href="#social">Social</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header> 
 	
-	<!-- header fixed at top of page? except for title section? hmm. -->
-	<section>
+
+<section>
+	
 	<!-- Homepage-->
-	<div id="homepage" class="homepage bg">
-		<div class="container-fluid background">
-				<h1 class="homepage-content homepage-heading">The Monkees</h1>
-			<img class="mainimage" src="assets/multimedia/images/monkees.jpg">
+	
+	<div id="homepage">
+		<div class="container-fluid homepage">
+			<h1 class="homepage-heading">The Monkees</h1>
+			<!-- main / hero image here - or background. -->
 			<div class="container homepage-navigation">
 				<a href="#music" class="linktext">Music</a>
 				<a href="#gallery" class="linktext">Gallery</a>
 				<a href="#events" class="linktext">Events</a>
 			</div>
 		</div>
-
 	</div>
 
 	<!-- Music -->
-	<div id="music" class="music page">
-		<div class="container">>
+	<div id="music" class="music">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-6">
+				<div class="col-xs-12 col-md-12">
 					<h2 class="heading">Music.</h2>
 				</div>
 			</div>
@@ -54,72 +56,64 @@
 	<div class="container-fluid">
 		<div class="row">
 			<!--same as for music, once music one is functional -->
-			<h2 class="subheading">Songs</h2>
+			<div class="col-xs-12">
+				<h2 class="subheading">Songs.</h2>
+			</div>
 		</div>
 	</div>
 	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-8 col-md-5">
-				<div class="song">
-					<p>Clarksville</p>
+			<div class="col-xs-12 col-sm-8 col-md-5 song">
+				<p>Clarksville</p>
+				<audio controls>
+					<source src="assets/music-videos/Clarksville.mp3" type="audio/mpeg">
+							Clarksville Song Not Working
+				</audio>
+			</div>
+				
+			<div class="col-xs-12 col-sm-8 col-md-5 song">
+				<p>Daydream Believer</p>
+				<audio controls>
+					<source src="assets/music-videos/DaydreamBeliever.mp3" type="audio/mpeg">
+								Daydream Believer Song Not Working
+				</audio>
+			</div>
+				
+			<div class="col-xs-12 col-sm-8 col-md-5 song">
+				<p>I'm A Believer</p>
 					<audio controls>
-						<source src="assets/music-videos/Clarksville.mp3" type="audio/mpeg">
-						Clarksville Song Not Working
+						<source src="assets/music-videos/ImABeliever.mp3" type="audio/mpeg">
+								Im A Believer Song Not Working
 					</audio>
-				</div>
 			</div>
-			
-			<div class="col-xs-12 col-sm-8 col-md-5">
-				<div class="song">
-					<p>Daydream Believer</p>
-						<audio controls>
-							<source src="assets/music-videos/DaydreamBeliever.mp3" type="audio/mpeg">
-							Daydream Believer Song Not Working
-						</audio>
-				</div>
-			</div>
-			
-			<div class="col-xs-12 col-sm-8 col-md-5">
-				<div class="song">
-					<p>I'm A Believer</p>
-						<audio controls>
-							<source src="assets/music-videos/ImABeliever.mp3" type="audio/mpeg">
-							Im A Believer Song Not Working
-						</audio>
-				</div>	
-			</div>
-			
-			<div class="col-xs-12 col-sm-8 col-md-5">
-				<div class="song">
-					<p>Stepping Stone</p>
-						<audio controls>
-							<source src="assets/music-videos/SteppingStone.mp3" type="audio/mpeg">
-							Stepping Stone Song Not Working
-						</audio>
-				</div>
+				
+			<div class="col-xs-12 col-sm-8 col-md-5 song">
+				<p>Stepping Stone</p>
+				<audio controls>
+					<source src="assets/music-videos/SteppingStone.mp3" type="audio/mpeg">
+								Stepping Stone Song Not Working
+				</audio>
 			</div>
 		</div>
 	</div>	
-	
+		
 		<h2 class="subheading">Albums.</h2>
 			<img src="assets/multimedia/images/cover.jpg" alt="The Monkees Greatest Hits Album">
 			<img src="assets/multimedia/images/album.jpg" alt="The Greatest Hits of the Monkees Album">
 			<img src="assets/multimedia/images/album2.jpg" alt="The Very Best of the Monkees album">
 	</div>
+	
+	
 	<!--Gallery -->
+	
+	
 	<div id="gallery" class="gallery page">
 		<h2 class="heading">Gallery.</h2>
-	<!--mobile - ech below each other, desktop - different sizes, some, two on a row, some one taking up whole row. 
-	sort by height. 
-	monkees.jpg - full.
-	band members - 2 to a row.
-	albums - ideally, one next to a different photo eg. album, and next to band image. or maybe neater if all 
-	band images together and all album pictures together.
-	-->
+
 		<img src="assets/multimedia/images/cover1.jpg" alt="the monkees performing">
-		<img src="assets/multimedia/images/album.jpg" alt="album cover for 'The Greatest Hits of The Monkees'.">
-		<img src="assets/multimedia/images/album2.jpg" alt="album cover for 'The Very best of The Monkees'.">
+		<img src="assets/multimedia/images/album.jpg" alt="album cover for 'The Greatest Hits of The Monkees'">
+		<img src="assets/multimedia/images/album2.jpg" alt="album cover for 'The Very best of The Monkees'">
 		<img src="assets/multimedia/images/cover.jpg" alt="Album cover for 'The Monkees Greatest Hits'">
 		<img src="assets/multimedia/images/band.jpg" alt="the monkees group photo">
 		<img src="assets/multimedia/images/cover3.jpg" alt="photo of band">
@@ -131,35 +125,49 @@
 		<img src="assets/multimedia/images/pt.jpg" alt="Peter Tork">
 		
 	</div>
+	
+	
 	<!-- Events -->
-	<div id="events" class="events page">
-			<h2 class="heading">Events.</h2>
+	
+	
+	<div id="events" class="events">
+		<h2 class="heading">Events.</h2>
+		
 		<p>The Monkees perform at events such as weddings and Christmas parties. If you would like The Monkees
 		to perform at your event, please use the form below to be in contact.</p>
+		
 		<h2 class="subheading">Contact.</h2>
+		
 		<form>
-			<!--form with sections for, name, email address, and message space -->
 			<input type="text" name="name" placeholder="Name" class="formitem" size="35"/>
 			<input type="email" name="email" placeholder="Email Address" class="formitem" size="35"/>
 			<textarea rows="15" cols="50" class="formitem"></textarea>
 			<input type="submit" name="submit" class="formitem submit">
-			
 		</form>
 	</div>
 	
-	</section>
-<footer>
-	<!--Social media links, logo again, etc -->
-	<h3>
-		The Monkees
-	</h3>
+</section>
 	
-	<div id="social" class="social">
-		<a href="https://en-gb.facebook.com/TheMonkees/" class="sociallink"><i class="fab fa-facebook-square"></i></a>
-		<a href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="sociallink"><i class="fab fa-twitter-square"></i></a>
+<footer>
+	<div class="container-fluid">
+		<div id="social" class="social">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-5">
+					<h3 class="footer-heading">The Monkees</h3>
+				</div>
+				
+				<div class="col xs-6 col-sm-6 col-md-2 social-links">
+						<a href="https://en-gb.facebook.com/TheMonkees/" class="sociallink">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+						<a href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="sociallink">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+				</div>
+			</div>
+		</div>
 	</div>
 	
-	
-</footer> <!-- footer fixed at bottom of page -->
+</footer>
 </body>
 </html>
