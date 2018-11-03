@@ -1,4 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans');
+
+/*-------------------------------Styling for multiple pages eg fonts----------------------------------*/
+
+h1,h2 {
+    margin-left:40px;
+    margin-top: 0px;
+    font-family:"abril fatface", cursive;
+}
+
+.gallery, .homepage, .music, .events {
+    padding-bottom: 0px;
+    margin-bottom:0px;
+}
+
+
+/* nav styling */
+
+.nav ul{
+    list-style-type:none;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.nav ul li{
+    margin-left:10px;
+    margin-right:10px; 
+}
+
+.navbar {
+    width:100%;
+    background-color:#EEAEFF;
+    padding:0px 30px 0px 30px;
+    margin:0px;
+    height:30px;
+    font-family: "PT Sans", sans-serif;
+}
+    
+/*heading styling*/
+
+.heading {
+    padding-top:20px;
+    text-align:center;
+    font-size:90px;
+}
+
+.subheading {
+    padding-top:10px;
+    text-align:left;
+    font-size:45px;
+    padding-bottom:10px;
+}
+
 
 
 /*----------------------Background Colors-------------------------------*/
@@ -8,7 +60,7 @@
 
 
 .music {
-    background-color:#011706;
+    background-color:#043926;
 }
 
 
@@ -24,7 +76,6 @@
 /*--------------------------------Homepage Styling-------------------------------------------------*/
 
 .homepage-heading {
-    text-align: center;
     font-size:100px;
     color:#AAFECF;
 }
@@ -32,110 +83,15 @@
 .homepage-navigation a {
     margin-left:80px;
     margin-right:80px;
-    margin-bottom:20px;
+    margin-bottom:40px;
     font-size:40px;
     border:#AAFECF solid 3px;
     color:#AAFECF;
     font-family:"abril fatface", cursive;
-    
-    }
+}
 
-.background{
+.homepage {
     height:100vh;
-    background-image: url("assets/multimedia/images/monkees.jpg");
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    }
-
-/*.bg {
-    background-image: url("assets/multimedia/images/monkees.jpg");
-    height:100%;
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-*/
-
-.mainimage {
-    height:200px;
-}
-
-/*-------------------------------Styling for multiple pages eg fonts----------------------------------*/
-
-.container-fluid{
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-h1,h2 {
-    margin-left:40px;
-    margin-top: 0px;
-    font-family:"abril fatface", cursive;
-}
-
-.gallery, .homepage, .music, .events {
-    padding-bottom: 0px;
-    margin-bottom:0px;
-}
-
-/*header styling */
-
-header .nav ul{
-    list-style-type:none;
-    margin-left:20px;
-    margin-right:20px;
-    }
-
-header .nav ul li{
-    margin-left:10px;
-    margin-right:10px; 
-
-}
-
-/* nav styling */
-
-nav {
-    margin:0px;
-    padding:0px;
-    
-}
-
-.nav a{
-        color: #ffffff;
-        text-decoration: none;
-}
-
-.nav-a {
-    color:#000000;
-}
-
-.navbar {
-    width:100%;
-    background-color:#EEAEFF;
-    padding:0px 30px 0px 30px;
-    margin:0px;
-    height:30px;
-    font-family: "abril fatface", cursive;
-
-}
-
-/*heading styling*/
-
-.heading {
-    padding-top:20px;
-    text-align:center;
-    font-size:90px;
-    
-}
-
-.subheading {
-    padding-top:10px;
-    text-align:left;
-    font-size:45px;
-    padding-bottom:10px;
 }
 
 
@@ -147,13 +103,18 @@ nav {
     margin:10px;
 }
 
-.music h2 {
-    color:#FF97B0; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+.music .heading, .music .subheading {
+    color:#FF989F; 
 }
 
 .song {
     margin-left: 10px;
     margin-right:10px;
+}
+
+.music p {
+    color:#FF989F;
+    font-family:"PT Sans", sans-serif;
 }
 
 
@@ -165,19 +126,18 @@ nav {
     margin:10px;
 }
 
-.gallery h2 {
+.gallery .heading {
     padding-top:20px;
-    text-align:left;
     color:#97E7FF; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
-    font-size:70px;
 }
 /*-----------------------Events Page Form Styling----------------------------------------------*/
 
-.events h2 {
+.events .heading {
     color:#FFF397; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
 }
 .events p {
     color:#FFF397;
+    font-family:"PT Sans", sans-serif;
     /*COLOR NEEDS ADJUSTING / IMPROVING!*/
     
 }
@@ -208,3 +168,17 @@ textarea {
 footer {
     background-color:#A3FFD2;
 }
+
+i {
+    margin:10px;
+   font-size:35px;
+    color: #3B081D;
+
+}
+
+.footer-heading {
+    margin-left: 30px;
+    margin-top:10px;
+    }
+    
+
