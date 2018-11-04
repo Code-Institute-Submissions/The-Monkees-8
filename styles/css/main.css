@@ -2,6 +2,11 @@
 
 /*-------------------------------Styling for multiple pages eg fonts----------------------------------*/
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 h1,h2 {
     margin-left:40px;
     margin-top: 0px;
@@ -81,21 +86,22 @@ h1,h2 {
 }
 
 .homepage-navigation a {
-    margin-left:80px;
-    margin-right:80px;
-    margin-bottom:40px;
     font-size:40px;
     border:#AAFECF solid 3px;
     color:#AAFECF;
     font-family:"abril fatface", cursive;
+    margin-left:20px;
+    margin-right: 20px;
+    background-color:#010D31;
 }
 
 .homepage {
     height:100vh;
 }
 
-
-
+.hero-image {
+    height: 200px;
+}
 /*--------------------------------Music Page Styling-------------------------------------------------*/
 
 .music img {
@@ -132,9 +138,11 @@ h1,h2 {
 }
 /*-----------------------Events Page Form Styling----------------------------------------------*/
 
-.events .heading {
+.events .heading, .events .subheading {
     color:#FFF397; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
 }
+
+
 .events p {
     color:#FFF397;
     font-family:"PT Sans", sans-serif;
@@ -159,9 +167,6 @@ input {
 textarea {
     resize:none;
 }
-.marginb {
-    margin-bottom:10px;
-}
 
 /*--------------------------Footer---------------------*/
 
@@ -181,4 +186,3 @@ i {
     margin-top:10px;
     }
     
-
