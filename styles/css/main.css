@@ -102,6 +102,11 @@ h1,h2 {
 .hero-image {
     height: 200px;
 }
+
+.hero-image img {
+    margin-left:60px;
+    margin-right:60px;
+}
 /*--------------------------------Music Page Styling-------------------------------------------------*/
 
 .music img {
@@ -127,9 +132,15 @@ h1,h2 {
 
 /*--------------------------------Gallery Page Styling-------------------------------------------------*/
 
-.gallery img {
+/*.gallery img {
     width:300px;
     margin:10px;
+}
+
+*/
+
+.gallery div .col-xs-12 {
+    height:100%;
 }
 
 .gallery .heading {
