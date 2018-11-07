@@ -21,13 +21,13 @@ h1,h2 {
 
 /* nav styling */
 
-.nav ul{
+nav ul{
     list-style-type:none;
     margin-left:20px;
     margin-right:20px;
 }
 
-.nav ul li{
+nav ul li{
     margin-left:10px;
     margin-right:10px; 
 }
@@ -39,7 +39,14 @@ h1,h2 {
     margin:0px;
     height:30px;
     font-family: "PT Sans", sans-serif;
+    position: fixed;
+    z-index: 2;
 }
+
+.navbar li a {
+    color:#0E4B1D;
+}
+
     
 /*heading styling*/
 
@@ -60,7 +67,10 @@ h1,h2 {
 
 /*----------------------Background Colors-------------------------------*/
 .homepage {
-    background-color:#010D31;
+  /*  background-color:#010D31; */
+  background-image: url(../../assets/multimedia/images/monkees.jpg);
+  background-repeat: none;
+  background-size: cover;
 }
 
 
@@ -98,7 +108,7 @@ h1,h2 {
 .homepage {
     height:100vh;
 }
-
+/*
 .hero-image {
     height: 200px;
 }
@@ -106,7 +116,9 @@ h1,h2 {
 .hero-image img {
     margin-left:60px;
     margin-right:60px;
+    height:450px;
 }
+*/
 /*--------------------------------Music Page Styling-------------------------------------------------*/
 
 .music img {
@@ -132,32 +144,25 @@ h1,h2 {
 
 /*--------------------------------Gallery Page Styling-------------------------------------------------*/
 
-/*.gallery img {
-    width:300px;
-    margin:10px;
+.gallery .row img {
+    height:150px;
+    
 }
-
-*/
-
-.gallery div .col-xs-12 {
-    height:100%;
-}
-
 .gallery .heading {
     padding-top:20px;
-    color:#97E7FF; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+    color:#7AE0FE;
 }
+
 /*-----------------------Events Page Form Styling----------------------------------------------*/
 
 .events .heading, .events .subheading {
-    color:#FFF397; /*COLOR NEEDS ADJUSTING / IMPROVING!*/
+    color:#FFF397;
 }
 
 
 .events p {
     color:#FFF397;
     font-family:"PT Sans", sans-serif;
-    /*COLOR NEEDS ADJUSTING / IMPROVING!*/
     
 }
 
