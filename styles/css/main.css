@@ -34,7 +34,7 @@ nav ul li{
 
 .navbar {
     width:100%;
-    background-color:#EEAEFF;
+    background-color:#FFB13D;
     padding:0px 30px 0px 30px;
     margin:0px;
     height:30px;
@@ -44,7 +44,7 @@ nav ul li{
 }
 
 .navbar li a {
-    color:#0E4B1D;
+    color:#ffffff;
 }
 
     
@@ -67,7 +67,6 @@ nav ul li{
 
 /*----------------------Background Colors-------------------------------*/
 .homepage {
-  /*  background-color:#010D31; */
   background-image: url(../../assets/multimedia/images/monkees.jpg);
   background-repeat: none;
   background-size: cover;
@@ -75,7 +74,7 @@ nav ul li{
 
 
 .music {
-    background-color:#043926;
+    background-color:#002246;
 }
 
 
@@ -128,8 +127,8 @@ nav ul li{
 /*--------------------------------Music Page Styling-------------------------------------------------*/
 
 .music img {
-    width:300px;
-    margin:10px;
+    width: 240px;
+    padding: 10px;
 }
 
 .music .heading, .music .subheading {
@@ -150,13 +149,17 @@ nav ul li{
 
 /*--------------------------------Gallery Page Styling-------------------------------------------------*/
 
-.gallery .row img {
-    height:150px;
+.images img {
+    height: 200px;
     
 }
 .gallery .heading {
     padding-top:20px;
     color:#7AE0FE;
+}
+
+.gallery .row {
+    margin:15px;
 }
 
 /*-----------------------Events Page Form Styling----------------------------------------------*/
@@ -208,3 +211,39 @@ i {
     margin-top:10px;
     }
     
+/*--------------------------link transition effects---------------------*/
+
+.navbar li a {
+    transition-property: color,font-weight;
+}
+
+.navbar li a:hover {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    color: #8F8F8F;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.homepage a {
+    transition-property: color, border;
+}
+
+.homepage-navigation a:hover{
+    text-decoration: none;
+    color:#77EAAA;
+    border:#77EAAA solid 3px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+footer social links
+.sociallink i{
+    transition-property: color;
+}
+
+.sociallink i:hover{
+    color:#9B134B;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
