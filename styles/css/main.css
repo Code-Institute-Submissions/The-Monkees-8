@@ -50,6 +50,8 @@ nav ul li{
 
 .navbar li a {
     color:#000000;
+    font-size:15px;
+    margin:0px -5px;
 }
 
 /*heading styling*/
@@ -83,7 +85,7 @@ nav ul li{
 
 
 .gallery {
-    background-color:#4c0143;
+    background-color:#250831;
 }
 
 .events {
@@ -99,8 +101,8 @@ nav ul li{
     margin-top: 230px;
     background-color: rgb(230,223,0,0.6);
     padding:0px;
-    margin-left: 0px;
-    margin-right:0px;
+    margin-bottom:20px;
+    width:650px;
 }
 
 .homepage-navigation a {
@@ -108,8 +110,6 @@ nav ul li{
     color:#242424;
     font-family:"abril fatface", cursive;
     padding:5px;
-    margin-left:20px;
-    margin-right: 20px;
     background-color: rgb(230,223,0,0.6);
 }
 
@@ -131,7 +131,6 @@ nav ul li{
 
 .music img {
     width: 240px;
-    padding: 10px;
 }
 
 .music .heading, .music .subheading {
@@ -158,6 +157,8 @@ nav ul li{
 .images img {
     height: 200px;
     margin:10px;
+    display:block;
+    justify-content:center;
     
 }
 .gallery .heading {
@@ -191,6 +192,7 @@ input {
 }
 
 .formitem {
+    
     margin-left:25px;
     display: block;
 }
@@ -201,6 +203,7 @@ input {
 
 textarea {
     resize:none;
+    margin:5px;
 }
 
 /*--------------------------Footer---------------------*/
@@ -220,6 +223,7 @@ i {
     margin-left: 30px;
     margin-top:10px;
     color:#000000;
+    width:170px;
     }
     
 /*--------------------------link transition effects---------------------*/
