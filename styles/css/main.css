@@ -69,7 +69,11 @@ nav ul li{
     padding-bottom:10px;
 }
 
-
+.center-this{
+    text-align:center;
+    display: flex;
+    justify-content: center
+}
 
 /*----------------------Background Colors-------------------------------*/
 .homepage {
@@ -89,20 +93,19 @@ nav ul li{
 }
 
 .events {
-    background-color:#003F0A;
+    background-color:#440010;
 }
 
 
 /*--------------------------------Homepage Styling-------------------------------------------------*/
 
 .homepage-heading {
-    font-size:100px;
+    font-size:80px;
     color:#242424;
     margin-top: 230px;
+    margin-bottom:20px;
     background-color: rgb(230,223,0,0.6);
     padding:0px;
-    margin-bottom:20px;
-    width:650px;
 }
 
 .homepage-navigation a {
@@ -130,7 +133,8 @@ nav ul li{
 /*--------------------------------Music Page Styling-------------------------------------------------*/
 
 .music img {
-    width: 240px;
+    height: 280px;
+    margin:10px;
 }
 
 .music .heading, .music .subheading {
@@ -173,11 +177,11 @@ nav ul li{
 /*-----------------------Events Page Form Styling----------------------------------------------*/
 
 .events .heading, .events .subheading {
-    color:#FDABCB;
+    color:#72fd76;
 }
 
 .events p {
-    color:#FDABCB;
+    color:#72fd76;
     font-family:"PT Sans", sans-serif;
     
 }
@@ -219,11 +223,15 @@ i {
 
 }
 
+.social-links{
+    width:260px;
+    margin:auto;
+}
+
 .footer-heading {
-    margin-left: 30px;
-    margin-top:10px;
+    margin-top:20px auto;
     color:#000000;
-    width:170px;
+    width:240px;
     }
     
 /*--------------------------link transition effects---------------------*/
@@ -250,7 +258,6 @@ i {
     transition-timing-function: ease-in-out;
 }
 
-footer social links
 .sociallink i{
     transition-property: color;
 }
