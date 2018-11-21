@@ -1,6 +1,6 @@
 # The Monkees Website
 
-The website contains 4 sections - homepage, music page, gallery, and events page.
+The website contains 4 sections - homepage, music page, gallery, and contact page.
 
 ## UX
 
@@ -33,8 +33,6 @@ HTML and CSS for the structure and basic styling.
 # Testing
 
 I tested the HTML with [HTML Validator](https://validator.w3.org/).
-
-I tested the responsiveness with [Responsinator](https://www.responsinator.com/).
 
 # Deployment
 
