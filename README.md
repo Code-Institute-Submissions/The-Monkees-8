@@ -30,6 +30,12 @@ HTML and CSS for the structure and basic styling.
 
 [Font Awesome](https://fontawesome.com/) for the social media logo symbols.
 
+# Testing
+
+I tested the HTML with [HTML Validator](https://validator.w3.org/).
+
+I tested the responsiveness with [Responsinator](https://www.responsinator.com/).
+
 # Deployment
 
 I deployed the page with GitHub Pages.
@@ -40,5 +46,5 @@ Images provided by Code Institute.
 
 #
 
-Made with a lot of help from the Code Institute tutors.
+Made with a lot of help from the Code Institute tutors, and advice from my [mentor](https://github.com/tonkec).
 
