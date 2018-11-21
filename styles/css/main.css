@@ -7,6 +7,7 @@
 h1,h2 {
     margin-top: 0px;
     margin-left:10px;
+    margin-bottom:25px;
     font-family:"abril fatface", cursive;
 }
 
@@ -52,7 +53,7 @@ nav ul li {
 .heading {
     padding-top:40px;
     text-align:center;
-    font-size:90px;
+    font-size:70px;
 }
 
 .subheading {
@@ -118,6 +119,9 @@ nav ul li {
     height:120vh;
 }
 
+.home-nav{
+    margin-bottom:15px;
+}
 
 /*--------------------------------Music Page Styling-------------------------------------------------*/
 
@@ -128,6 +132,7 @@ nav ul li {
 
 .music .heading, .music .subheading {
     color:#FF989F; 
+    margin-bottom: 35px;
 }
 
 .song {
@@ -138,6 +143,7 @@ nav ul li {
 .music p {
     color:#FF989F;
     font-family:"PT Sans", sans-serif;
+    margin-bottom: 20px;
 }
 
 .music .subheading {
