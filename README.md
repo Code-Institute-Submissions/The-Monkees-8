@@ -7,8 +7,12 @@ The website contains 4 sections - homepage, music page, gallery, and events page
 The website is for a band, popular in the 1960s and 1970s.
 I created a fairly classical website design for this reason.
 
+# User Stories
 
-Wireframes.
+- Someone wanting to contact the band to perform at an event
+- Someone wanting to listen to the band's music
+- Someone wanting to see images of the band
+- Someone wanting to see a the different albums of the band
 
 # Features
 
@@ -29,6 +33,10 @@ HTML and CSS for the structure and basic styling.
 # Deployment
 
 I deployed the page with GitHub Pages.
+
+# Media
+
+Images provided by Code Institute. 
 
 #
 
