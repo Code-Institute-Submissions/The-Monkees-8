@@ -35,6 +35,7 @@ HTML and CSS for the structure and basic styling.
 ## Testing
 
 I tested the HTML with [HTML Validator](https://validator.w3.org/).
+I tested the CSS with [Jigsaw - CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 ## Deployment
 
